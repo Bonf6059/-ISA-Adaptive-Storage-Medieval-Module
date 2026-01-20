@@ -36,7 +36,7 @@
   <!-- Bundled Sack (1x1) -->
   
 	<ThingDef ParentName="ASMedievalBundledSackBase">
-		<defName>ISA_BundledSack1x1</defName>
+		<defName>ISA_BundledSackSmall</defName>
     <label>bundled sack (1x1)</label>
 		<graphicData>
 			<texPath>ASMedieval/BundledSack/BundledSack_Full_Small</texPath>
@@ -54,10 +54,10 @@
     <costStuffCount>10</costStuffCount>
 	</ThingDef>
 
-  <!-- Bundled Sack (1x1) -->
+  <!-- Bundled Sack (2x2) -->
   
 	<ThingDef ParentName="ASMedievalBundledSackBase">
-		<defName>ISA_BundledSack2x2</defName>
+		<defName>ISA_BundledSackBig</defName>
     <label>bundled sack (2x2)</label>
 		<graphicData>
 			<texPath>ASMedieval/BundledSack/BundledSack_Full_Big</texPath>
