@@ -10,7 +10,7 @@
 		</graphicData>
 		<description>A robust fabric bag designed to store resources in an efficient manner. Items stored inside will not affect room beauty and will never deteriorate, even if outside.</description>
 		<fillPercent>0.20</fillPercent>
-		<uiIconScale>0.5</uiIconScale>
+		<uiIconScale>1</uiIconScale>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<building>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
