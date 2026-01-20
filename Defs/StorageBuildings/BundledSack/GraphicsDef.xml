@@ -4,20 +4,20 @@
   <!-- Parent -->  
   
   <AdaptiveStorage.GraphicsDef Name="ASMedievalBundledSackSmallBase" Abstract="True">
-    <targetDef>ISA_BundledSack1x1</targetDef>
+    <targetDef>ISA_BundledSackSmall</targetDef>
     <showContainedItems>false</showContainedItems>
   </AdaptiveStorage.GraphicsDef>
 
   <AdaptiveStorage.GraphicsDef Name="ASMedievalBundledSackBigBase" Abstract="True">
-    <targetDef>ISA_BundledSack2x2</targetDef>
+    <targetDef>ISA_BundledSackBig</targetDef>
     <showContainedItems>false</showContainedItems>
   </AdaptiveStorage.GraphicsDef>
 
   <!-- Bundled Sack Small -->
 
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalBundledSackSmallBase">
-		<defName>ISA_BundledSack1x1</defName>
-		<targetDef>ISA_BundledSack1x1</targetDef>
+		<defName>ISA_BundledSackSmall</defName>
+		<targetDef>ISA_BundledSackSmall</targetDef>
 		<graphics>
 			<li>
 				<graphicData>
@@ -42,8 +42,8 @@
   <!-- Bundled Sack Big -->
 
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalBundledSackBigBase">
-		<defName>ISA_BundledSack2x2</defName>
-		<targetDef>ISA_BundledSack2x2</targetDef>
+		<defName>ISA_BundledSackBig</defName>
+		<targetDef>ISA_BundledSackBig</targetDef>
 		<graphics>
 			<li>
 				<graphicData>
