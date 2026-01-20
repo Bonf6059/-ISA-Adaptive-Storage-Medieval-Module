@@ -19,6 +19,9 @@
 				<filter>
 					<disallowNotEverStorable>true</disallowNotEverStorable>
 					<thingDefs />
+					<categories>
+						<li>Root</li> <!-- Root means everything -->
+					</categories>
 				</filter>
 			</fixedStorageSettings>
 			<paintable>true</paintable>
