@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Parent -->
+  
+  <ThingDef ParentName="ASMedievalStorageBase" Name="ASMedievalBundledSackBase" Abstract="True">
+		<label>bundled sack</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>A robust fabric bag designed to store resources in an efficient manner. Items stored inside will not affect room beauty and will never deteriorate, even if outside.</description>
+		<fillPercent>0.20</fillPercent>
+		<uiIconScale>0.5</uiIconScale>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<maxItemsInCell>5</maxItemsInCell>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<thingDefs />
+				</filter>
+			</fixedStorageSettings>
+			<paintable>true</paintable>
+      <maxItemsInCell>4</maxItemsInCell>
+		</building>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+	</ThingDef>
+
+  <!-- Bundled Sack (1x1) -->
+  
+	<ThingDef ParentName="ASMedievalBundledSackBase">
+		<defName>ISA_BundledSack1x1</defName>
+    <label>bundled sack (1x1)</label>
+		<graphicData>
+			<texPath>ASMedieval/BundledSack/BundledSack1x1</texPath>
+      <drawSize>(2.0,2.0)</drawSize>
+		</graphicData>
+		<uiIconPath>ASMedieval/BundledSack/BundledSack1x1</uiIconPath>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>250</WorkToBuild>
+      <Flammability>1</Flammability>
+      <Beauty>0</Beauty>
+      <Mass>4</Mass>
+    </statBases>
+    <costStuffCount>10</costStuffCount>
+	</ThingDef>
+
+  <!-- Bundled Sack (1x1) -->
+  
+	<ThingDef ParentName="ASMedievalBundledSackBase">
+		<defName>ISA_BundledSack2x2</defName>
+    <label>bundled sack (2x2)</label>
+		<graphicData>
+			<texPath>ASMedieval/BundledSack/BundledSack2x2</texPath>
+      <drawSize>(4.0,4.0)</drawSize>
+		</graphicData>
+		<uiIconPath>ASMedieval/BundledSack/BundledSack2x2</uiIconPath>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Flammability>1</Flammability>
+      <Beauty>0</Beauty>
+      <Mass>16</Mass>
+    </statBases>
+    <costStuffCount>40</costStuffCount>
+	</ThingDef>
+
+</Defs>
