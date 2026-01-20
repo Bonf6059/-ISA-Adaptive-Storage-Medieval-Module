@@ -1,6 +1,6 @@
 # -ISA-Adaptive-Storage-Medieval-Module
 
-Update of the original mod from Soul and BBradon with some addons to increase compatibility to my mod series [ISA]          
+Update of the original mod from Soul and Bbradson with some addons to increase compatibility to my mod series [ISA]          
 
 # Ideas for possible next updates
 
