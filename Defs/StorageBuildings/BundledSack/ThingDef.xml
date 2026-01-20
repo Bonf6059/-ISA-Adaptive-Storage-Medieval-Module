@@ -39,10 +39,10 @@
 		<defName>ISA_BundledSack1x1</defName>
     <label>bundled sack (1x1)</label>
 		<graphicData>
-			<texPath>ASMedieval/BundledSack/BundledSack1x1</texPath>
-      <drawSize>(2.0,2.0)</drawSize>
+			<texPath>ASMedieval/BundledSack/BundledSack_Full_Small</texPath>
+     		 <drawSize>(2.0,2.0)</drawSize>
 		</graphicData>
-		<uiIconPath>ASMedieval/BundledSack/BundledSack1x1</uiIconPath>
+		<uiIconPath>ASMedieval/BundledSack/BundledSack_Full_Small</uiIconPath>
     <size>(1,1)</size>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
@@ -60,10 +60,10 @@
 		<defName>ISA_BundledSack2x2</defName>
     <label>bundled sack (2x2)</label>
 		<graphicData>
-			<texPath>ASMedieval/BundledSack/BundledSack2x2</texPath>
-      <drawSize>(4.0,4.0)</drawSize>
+			<texPath>ASMedieval/BundledSack/BundledSack_Full_Big</texPath>
+      		<drawSize>(4.0,4.0)</drawSize>
 		</graphicData>
-		<uiIconPath>ASMedieval/BundledSack/BundledSack2x2</uiIconPath>
+		<uiIconPath>ASMedieval/BundledSack/BundledSack_Full_Big</uiIconPath>
     <size>(2,2)</size>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
