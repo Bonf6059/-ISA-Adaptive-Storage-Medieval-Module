@@ -37,6 +37,8 @@
             <li>Uranium</li>
 			<li MayRequire="det.epochspyrinth">DV_Pyrinth</li>
 			<li MayRequireAnyOf="det.epochspottery,det.epochsgolems">DV_Clay</li>
+			<li MayRequire="ISA.Medieval">ISA_Criopyrinth</li>
+			<li MayRequireAnyOf="ISA.Medieval,ISA.sbdelights">ISA_Coal</li>
           </thingDefs>
 				</filter>
 			</fixedStorageSettings>
