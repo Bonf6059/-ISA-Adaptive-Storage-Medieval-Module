@@ -548,5 +548,93 @@
       <li>Uranium</li>
     </requiredThingDefs>
   </AdaptiveStorage.GraphicsDef>
+	<!-- ================ Mod Compatibility ================ -->
+  <!-- Wood Mineral Crate  -->
+
+	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalMineralCrateBase">
+		<defName>ASMedievalMineralCrateWoodMixed</defName>
+		<graphics>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/MineralCrate/MineralCrateWood_Empty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.5,2.0)</drawSize>
+					<drawRotated>false</drawRotated>
+				</graphicData>
+			</li>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/MineralCrate/MineralCrateWood_Mixed</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.5,2.0)</drawSize>
+					<drawRotated>false</drawRotated>
+				</graphicData>
+				<minimumStackCount>1</minimumStackCount>
+			</li>
+		</graphics>
+		<onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+		<requiredThingDefs>
+			<li MayRequire="det.epochspyrinth">DV_Pyrinth</li>
+			<li MayRequireAnyOf="det.epochspottery,det.epochsgolems">DV_Clay</li>
+		</requiredThingDefs>
+	</AdaptiveStorage.GraphicsDef>
+
+	<!-- Stone Mineral Crate  -->
+	
+	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalMineralCrateStoneBase">
+		<defName>ASMedievalMineralCrateStoneMixed</defName>
+		<graphics>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/MineralCrate/MineralCrateStone_Empty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.5,2.0)</drawSize>
+					<drawRotated>false</drawRotated>
+				</graphicData>
+			</li>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/MineralCrate/MineralCrateStone_Mixed</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.5,2.0)</drawSize>
+					<drawRotated>false</drawRotated>
+				</graphicData>
+				<minimumStackCount>1</minimumStackCount>
+			</li>
+		</graphics>
+		<onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+		<requiredThingDefs>
+			<li MayRequire="det.epochspyrinth">DV_Pyrinth</li>
+			<li MayRequireAnyOf="det.epochspottery,det.epochsgolems">DV_Clay</li>
+		</requiredThingDefs>
+	</AdaptiveStorage.GraphicsDef>
+
+  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalMineralCrateMetalBase">
+    <defName>ASMedievalMineralCrateMetalMixed</defName>
+    <graphics>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/MineralCrate/MineralCrateMetal_Empty</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(2.5,2.0)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+      </li>
+      <li>
+        <graphicData>
+          <texPath>ASMedieval/MineralCrate/MineralCrateMetal_Mixed</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(2.5,2.0)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <minimumStackCount>1</minimumStackCount>
+      </li>
+    </graphics>
+	<onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+	<requiredThingDefs>
+		<li MayRequire="det.epochspyrinth">DV_Pyrinth</li>
+		<li MayRequireAnyOf="det.epochspottery,det.epochsgolems">DV_Clay</li>
+	</requiredThingDefs>
+  </AdaptiveStorage.GraphicsDef>
 
 </Defs>
