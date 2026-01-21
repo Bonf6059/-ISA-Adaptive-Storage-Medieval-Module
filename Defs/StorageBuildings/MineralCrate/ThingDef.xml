@@ -30,11 +30,13 @@
 				<filter>
 					<disallowNotEverStorable>true</disallowNotEverStorable>
           <thingDefs>
-						<li>Gold</li>
+			<li>Gold</li>
             <li>Plasteel</li>
             <li>Silver</li>
             <li>Steel</li>
             <li>Uranium</li>
+			<li MayRequire="det.epochspyrinth">DV_Pyrinth</li>
+			<li MayRequireAnyOf="det.epochspottery,det.epochsgolems">DV_Clay</li>
           </thingDefs>
 				</filter>
 			</fixedStorageSettings>
