@@ -11,7 +11,7 @@ Update of the original mod from Soul and Bbradson with some addons to increase c
 21/01/2026
 - Added Bundled Sacks big and small
 - Added compatibility to pyrinth and clay from detvisor epoch series
-- Added compatibility to criopyrinth and coal of the ISA series
+- Added compatibility to criopyrinth and coal from my ISA series
 
 20/01/2026
 - Updated About.xml
