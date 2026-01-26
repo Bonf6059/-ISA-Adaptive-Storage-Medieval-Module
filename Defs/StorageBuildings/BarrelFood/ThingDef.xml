@@ -45,6 +45,7 @@
 		<thingCategories>
 			<li>BuildingsFurniture</li>
 		</thingCategories>
+	  <designatorDropdown>ISA_Storage_BarrelFood</designatorDropdown>
 	</ThingDef>
 
   <!-- Wood Food Barrel -->
