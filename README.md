@@ -4,7 +4,7 @@ Update of the original mod from Soul and Bbradson with some addons to increase c
 
 # Ideas for possible next updates
 
-
+- Add new type of storages (look at the WIP section)
 
 # Old updates
 
