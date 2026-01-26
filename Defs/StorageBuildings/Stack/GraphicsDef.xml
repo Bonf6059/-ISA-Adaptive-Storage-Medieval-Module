@@ -38,7 +38,7 @@
 		<graphics>
 			<li>
 				<graphicData>
-					<texPath>ASMedieval/Stack/StackMeat</texPath>
+					<texPath>ASMedieval/Stack/StackMeat/StackMeat</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 		    	<shaderType>CutoutComplex</shaderType>
 					<drawSize>(4,4)</drawSize>
@@ -57,7 +57,7 @@
 		<graphics>
 			<li>
 				<graphicData>
-					<texPath>ASMedieval/Stack/StackVegetables</texPath>
+					<texPath>ASMedieval/Stack/StackVegetables/StackVegetables</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 		    	<shaderType>CutoutComplex</shaderType>
 					<drawSize>(4,4)</drawSize>
