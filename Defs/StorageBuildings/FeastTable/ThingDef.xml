@@ -55,6 +55,7 @@
     <placeWorkers>
       <li>PlaceWorker_RitualFocus</li>
     </placeWorkers>
+	  <designatorDropdown>ISA_Storage_FeastTable</designatorDropdown>
 	</ThingDef>
 
   <!-- Wood Feast Table -->
