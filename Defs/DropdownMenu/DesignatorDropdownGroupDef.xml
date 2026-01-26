@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	
+<!-- This is used only in the storage base def so if anything end up in here there something wrong -->
+	
+  	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Misc</defName>
+		<label>miscellaneous</label>
+	</DesignatorDropdownGroupDef>
+
 <!-- Storage -->
   
 	<DesignatorDropdownGroupDef>
@@ -13,51 +21,49 @@
 		<label>bricks pile</label>
 	</DesignatorDropdownGroupDef>
 
-  <DesignatorDropdownGroupDef>
+  	<DesignatorDropdownGroupDef>
 		<defName>ISA_Storage_BundledSack</defName>
 		<label>bundled sacks</label>
 	</DesignatorDropdownGroupDef>
 
-  <DesignatorDropdownGroupDef>
+  	<DesignatorDropdownGroupDef>
 		<defName>ISA_Storage_Cask</defName>
 		<label>casks</label>
 	</DesignatorDropdownGroupDef>
 
-  <DesignatorDropdownGroupDef>
+  	<DesignatorDropdownGroupDef>
 		<defName>ISA_Storage_Crate</defName>
 		<label>crates</label>
 	</DesignatorDropdownGroupDef>
 
-  <DesignatorDropdownGroupDef>
+  	<DesignatorDropdownGroupDef>
 		<defName>ISA_Storage_FeastTable</defName>
 		<label>feast tables</label>
 	</DesignatorDropdownGroupDef>
 
-  <DesignatorDropdownGroupDef>
+  	<DesignatorDropdownGroupDef>
 		<defName>ISA_Storage_Haymow</defName>
 		<label>haymow</label>
 	</DesignatorDropdownGroupDef>
 
-  <DesignatorDropdownGroupDef>
+  	<DesignatorDropdownGroupDef>
 		<defName>ISA_Storage_LumberPile</defName>
 		<label>lumber piles</label>
 	</DesignatorDropdownGroupDef>
 
-  <DesignatorDropdownGroupDef>
+  	<DesignatorDropdownGroupDef>
 		<defName>ISA_Storage_MedicineCabinet</defName>
 		<label>medicine cabinets</label>
 	</DesignatorDropdownGroupDef>
 
-  <DesignatorDropdownGroupDef>
-		<defName>ISA_Storage_Haymow</defName>
-		<label>haymow</label>
+  	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_MineralCrate</defName>
+		<label>mineral crates</label>
 	</DesignatorDropdownGroupDef>
 
-  <DesignatorDropdownGroupDef>
-		<defName>ISA_Storage_Haymow</defName>
-		<label>haymow</label>
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Pedestal</defName>
+		<label>pedestals</label>
 	</DesignatorDropdownGroupDef>
-
-  
 
 </Defs>
