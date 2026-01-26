@@ -8,6 +8,9 @@ Update of the original mod from Soul and Bbradson with some addons to increase c
 
 # Old updates
 
+26/01/2026
+- Crates don't show items anymore
+
 21/01/2026
 - Added Bundled Sacks big and small
 - Added compatibility to pyrinth and clay from detvisor epoch series
