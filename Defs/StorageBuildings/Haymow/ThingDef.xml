@@ -40,6 +40,7 @@
 				</filter>
 			</fixedStorageSettings>
 		</building>
+		<designatorDropdown>ISA_Storage_Haymow</designatorDropdown>
 	</ThingDef>
 
   <!-- Haymow 2x1 -->
