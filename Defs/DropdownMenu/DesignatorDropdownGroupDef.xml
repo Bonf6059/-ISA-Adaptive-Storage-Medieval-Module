@@ -66,4 +66,8 @@
 		<label>pedestals</label>
 	</DesignatorDropdownGroupDef>
 
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Stack</defName>
+		<label>stack</label>
+	</DesignatorDropdownGroupDef>
 </Defs>
