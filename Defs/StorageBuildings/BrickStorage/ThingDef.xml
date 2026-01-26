@@ -18,6 +18,7 @@
 				<labelFormat>StuffAsNoun</labelFormat>
 			</li>
 		</modExtensions>
+	  <designatorDropdown>ISA_Storage_Brick</designatorDropdown>
 	</ThingDef>
 
   <!-- Block Pile 2x1 -->
