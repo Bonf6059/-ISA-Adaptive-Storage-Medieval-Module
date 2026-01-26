@@ -4,7 +4,7 @@
   <!-- Parent -->
   
 	<AdaptiveStorage.GraphicsDef Name="ASMedievalCrateBase" Abstract="True">
-		<showContainedItems>true</showContainedItems>
+		<showContainedItems>false</showContainedItems>
 		<itemGraphics>
 			<columns>
 				<c0>
@@ -34,6 +34,15 @@
 					<drawRotated>false</drawRotated>
 				</graphicData>
 			</li>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/Crate/Crate_Wood_B</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(2.0,2.0)</drawSize>
+					<drawRotated>false</drawRotated>
+				</graphicData>
+				<minimumStackCount>1</minimumStackCount>
+			</li>
 		</graphics>
 	</AdaptiveStorage.GraphicsDef>
 
@@ -51,6 +60,15 @@
 					<drawRotated>false</drawRotated>
 				</graphicData>
 			</li>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/Crate/Crate_Stone_B</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(2.0,2.0)</drawSize>
+					<drawRotated>false</drawRotated>
+				</graphicData>
+				<minimumStackCount>1</minimumStackCount>
+			</li>
 		</graphics>
 	</AdaptiveStorage.GraphicsDef>
 
@@ -67,6 +85,15 @@
           <drawSize>(2.0,2.0)</drawSize>
           <drawRotated>false</drawRotated>
         </graphicData>
+      </li>
+	  <li>
+        <graphicData>
+          <texPath>ASMedieval/Crate/Crate_Metal_B</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>(2.0,2.0)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+		<minimumStackCount>1</minimumStackCount>
       </li>
     </graphics>
   </AdaptiveStorage.GraphicsDef>
