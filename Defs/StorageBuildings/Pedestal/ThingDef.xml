@@ -50,6 +50,7 @@
 			<li>ITab_Art</li>
 		</inspectorTabs>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+		<designatorDropdown>ISA_Storage_Pedestal</designatorDropdown>
 	</ThingDef>
 
 	<!-- Wood Pedestal -->
