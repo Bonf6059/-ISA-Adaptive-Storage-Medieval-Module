@@ -42,6 +42,7 @@
 		<thingCategories>
 			<li>BuildingsFurniture</li>
 		</thingCategories>
+	  <designatorDropdown>ISA_Storage_MedicineCabinet</designatorDropdown>
 	</ThingDef>
 
   <!-- Wood Medicine Cabinet -->
