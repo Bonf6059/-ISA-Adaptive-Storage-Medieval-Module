@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Storage -->
+  
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_BarrelFood</defName>
+		<label>food barrels</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Brick</defName>
+		<label>bricks pile</label>
+	</DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_BundledSack</defName>
+		<label>bundled sacks</label>
+	</DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Cask</defName>
+		<label>casks</label>
+	</DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Crate</defName>
+		<label>crates</label>
+	</DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_FeastTable</defName>
+		<label>feast tables</label>
+	</DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Haymow</defName>
+		<label>haymow</label>
+	</DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_LumberPile</defName>
+		<label>lumber piles</label>
+	</DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_MedicineCabinet</defName>
+		<label>medicine cabinets</label>
+	</DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Haymow</defName>
+		<label>haymow</label>
+	</DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Haymow</defName>
+		<label>haymow</label>
+	</DesignatorDropdownGroupDef>
+
+  
+
+</Defs>
