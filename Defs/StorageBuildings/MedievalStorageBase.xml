@@ -4,5 +4,6 @@
 		<researchPrerequisites>
 			<li>ASMedievalMedievalStorage</li>
 		</researchPrerequisites>
+		<designatorDropdown>ISA_Storage_Misc</designatorDropdown>
 	</ThingDef>
 </Defs>
