@@ -2,7 +2,7 @@
 <Defs>
 
 	
-<!-- This is used only in the storage base def so if anything end up in here there something wrong -->
+<!-- This is used only in the ASMedievalStorageBase so if smth end up in here there smth wrong -->
 	
   	<DesignatorDropdownGroupDef>
 		<defName>ISA_Storage_Misc</defName>
