@@ -22,12 +22,13 @@
 		</statBases>
 		<building>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
-			<maxItemsInCell>3</maxItemsInCell>
+			<maxItemsInCell>4</maxItemsInCell>
 			<fixedStorageSettings>
 				<filter>
 					<disallowNotEverStorable>true</disallowNotEverStorable>
 					<categories>
-						<li>FoodRaw</li>
+						<li>MeatRaw</li>
+						<li>PlantFoodRaw</li>
 					</categories>
 					<thingDefs>
 						<!--<li>Kibble</li>
