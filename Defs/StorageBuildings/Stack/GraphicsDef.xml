@@ -50,7 +50,7 @@
 		</allowedThingCategories>
 	</AdaptiveStorage.GraphicsDef>
 
-  <!-- Wood Meat Stack -->
+  <!-- Wood Vegetables Stack -->
 
   <AdaptiveStorage.GraphicsDef ParentName="ASMedievalStackBase">
 		<defName>ASMedievalStackVegetables</defName>
