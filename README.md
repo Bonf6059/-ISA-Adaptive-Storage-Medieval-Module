@@ -11,7 +11,7 @@ Update of the original mod from Soul and Bbradson with some addons to increase c
 26/01/2026
 - Crates don't show items anymore
 - Added DropDown menus for every type of storage
-- Added stacks for meat, vegetables and mixed - additional textures if ISA-Medieval or ISA-     HornetKeeping is active 
+- Added stacks for meat, vegetables and mixed - additional textures if ISA-Medieval or ISA-HornetKeeping is active 
   
 21/01/2026
 - Added Bundled Sacks big and small
