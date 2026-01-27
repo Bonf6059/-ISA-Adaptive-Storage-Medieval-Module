@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- Wood Bread Stack -->
+
+  <AdaptiveStorage.GraphicsDef MayRequire="ISA.hornetkeeping" ParentName="ASMedievalStackBase">
+		<defName>ASMedievalStackMead</defName>
+		<graphics>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/Stack/StackMead/StackMead</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+		    	<shaderType>CutoutComplex</shaderType>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+				<minimumStackCount>1</minimumStackCount>
+			</li>
+		<onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+		<requiredThingDefs>
+			<li>ISA_HornetMead</li>
+   		<li>ISA_HornetHoney</li>
+      <li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Mead</li>
+      <li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Honey</li>
+		</requiredThingDefs>
+	</AdaptiveStorage.GraphicsDef>
+  
+</Defs>
