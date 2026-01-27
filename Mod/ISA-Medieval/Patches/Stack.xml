@@ -3,17 +3,17 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[contains[@Name="ASMedievalStackThingBase"]/building/fixedStorageSettings/filter/thingDefs</xpath>
 		<value>
-      <li>ISA_Bread</li>
-      <li>ISA_Flour</li>
-      <li>ISA_MealCheese</li>
-     	<li>ISA_MealSheepCheese</li>
-    	<li>ISA_MealGoatCheese</li>
-    	<li MayRequire="Van.Beasts">ISA_MealMufftonCheese</li>
-     	<li MayRequire="Van.Beasts">ISA_MealGoldiloxCheese</li>
-      <li>ISA_JuiceApple</li>
-     	<li>ISA_Cider</li>
-     	<li>ISA_Wine</li>
-      <li>ISA_Wine_Berry</li>
-    </value>
+     		<li>ISA_Bread</li>
+    		<li>ISA_Flour</li>
+    		<li>ISA_MealCheese</li>
+     		<li>ISA_MealSheepCheese</li>
+    		<li>ISA_MealGoatCheese</li>
+    		<li MayRequire="Van.Beasts">ISA_MealMufftonCheese</li>
+     		<li MayRequire="Van.Beasts">ISA_MealGoldiloxCheese</li>
+    		<li>ISA_JuiceApple</li>
+     		<li>ISA_Cider</li>
+     		<li>ISA_Wine</li>
+      		<li>ISA_Wine_Berry</li>
+   		</value>
 	</Operation>
 </Patch>
