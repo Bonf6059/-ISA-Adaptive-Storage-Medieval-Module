@@ -7,29 +7,27 @@
 
   <!-- Parent Wood Food Barrel -->
   
-<!--	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalStackBase">
+	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalStackBase">
 		<defName>ASMedievalStackBase</defName>
 		<graphics>
 			<li>
 				<graphicData>
 					<texPath>ASMedieval/Stack/StackEmpty</texPath>
-					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(1.75,1.75)</drawSize>
-					<drawRotated>false</drawRotated>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
 				</graphicData>
 			</li>
 			<li>
 				<graphicData>
-					<texPath>ASMedieval/Stack/StackEmpty</texPath>
-					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(1.75,1.75)</drawSize>
-					<drawRotated>false</drawRotated>
+					<texPath>ASMedieval/Stack/StackMixed/StackMixed</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
 				</graphicData>
 				<minimumStackCount>1</minimumStackCount>
 			</li>
 		</graphics>
 		<randomSelectionWeight>0</randomSelectionWeight>
-	</AdaptiveStorage.GraphicsDef>  -->
+	</AdaptiveStorage.GraphicsDef>
   
   <!-- Wood Meat Stack -->
 
