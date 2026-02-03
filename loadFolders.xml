@@ -1,8 +1,7 @@
 <loadFolders>
 	<v1.6>
 		<li>/</li>
-		<!--<li IfModActive="ISA.Medieval">Mod/ISA-Medieval</li>-->
-    	<li IfModActive="ISA.hornetkeeping">Mod/ISA-Hornetkeeping</li>
+		<!--<li IfModActive=""></li>-->
     	<!--<li IfModNotActive=""</li>-->
     	<!--<li IfModActiveAll=","</li>-->
 	</v1.6>
