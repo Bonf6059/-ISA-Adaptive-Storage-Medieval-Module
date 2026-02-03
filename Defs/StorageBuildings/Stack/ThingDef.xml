@@ -4,7 +4,7 @@
   <!-- Parent -->
 
   <ThingDef ParentName="ASMedievalStorageBase" Name="ASMedievalStackThingBase" Abstract="True">
-		<label>stack</label>
+		<label>raw food stack</label>
 		<graphicData>
 			<texPath>ASMedieval/Stack/StackEmpty</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -46,13 +46,41 @@
 	  <designatorDropdown>ISA_Storage_Stack</designatorDropdown>
 	</ThingDef>
 
-  <!-- Wood Food Barrel -->
+  <!-- Wood Food Stack -->
 
-  <ThingDef ParentName="ASMedievalStackThingBase">
+  <ThingDef ParentName="ASMedievalStackThingBase" Name="ASMedievalStackWoody">
 		<defName>ASMedievalStackWoody</defName>
 		<stuffCategories>
 			<li>Woody</li>
 		</stuffCategories>
+	</ThingDef>
+	
+  <!-- Wood Mead Stack -->
+
+  <ThingDef ParentName="ASMedievalStackWoody" MayRequire="ISA.hornetkeeping">
+		<defName>ASMedievalStackMeadWoody</defName>
+	  	<label>mead stack</label>
+	 	<uiIconPath>ASMedieval/Stack/StackMead/StackMead</uiIconPath>
+	  	<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<!--<categories>
+						<li>MeatRaw</li>
+						<li>PlantFoodRaw</li>
+					</categories> -->
+					<thingDefs>
+						<li>ISA_HornetMead</li>
+   						<li>ISA_HornetHoney</li>
+				  	    <li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Mead</li>
+					    <li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Honey</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<paintable>true</paintable>
+		</building>
 	</ThingDef>
 
 </Defs>
