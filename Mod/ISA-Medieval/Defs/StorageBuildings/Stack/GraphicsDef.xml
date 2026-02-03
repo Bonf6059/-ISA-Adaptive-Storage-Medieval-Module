@@ -15,6 +15,7 @@
 				</graphicData>
 				<minimumStackCount>1</minimumStackCount>
 			</li>
+		</graphics>
 		<onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
 		<requiredThingDefs>
 			<li>ISA_Bread</li>
@@ -36,6 +37,7 @@
 				</graphicData>
 				<minimumStackCount>1</minimumStackCount>
 			</li>
+		</graphics>
 		<onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
 		<requiredThingDefs>
 			<li>ISA_MealCheese</li>
@@ -60,6 +62,7 @@
 				</graphicData>
 				<minimumStackCount>1</minimumStackCount>
 			</li>
+		</graphics>
 		<onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
 		<requiredThingDefs>
 			<li>ISA_JuiceApple</li>
