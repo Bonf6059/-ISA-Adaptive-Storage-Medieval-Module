@@ -4,7 +4,6 @@
   <!-- Parent -->
 
   <ThingDef ParentName="ASMedievalStorageBase" Name="ASMedievalStackThingBase" Abstract="True">
-	    <defName>ASMedievalStackBase</defName>
 		<label>stack</label>
 		<graphicData>
 			<texPath>ASMedieval/Stack/StackEmpty</texPath>
