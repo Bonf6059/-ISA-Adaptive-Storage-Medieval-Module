@@ -71,10 +71,9 @@
 
 <!-- ASMedievalStackMead -->
 	
-  <AdaptiveStorage.GraphicsDef MayRequire="ISA.hornetkeeping">
+  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalStackBase" MayRequire="ISA.hornetkeeping">
 		<defName>ASMedievalStackMead</defName>
 	  	<targetDef>ASMedievalStackMeadWoody</targetDef>
-		<showContainedItems>false</showContainedItems>
 		<graphics>
 			<li>
 				<graphicData>
@@ -102,6 +101,85 @@
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
 
+  <!-- Wood Bread Stack -->
 
+  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalStackBase" MayRequire="ISA.Medieval">
+		<defName>ASMedievalStackBread</defName>
+	  	<targetDef>ASMedievalStackBreadWoody</targetDef>	
+		<graphics>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/Stack/StackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+			</li>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/Stack/StackBread/StackBread</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+		    	<shaderType>CutoutComplex</shaderType>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+				<minimumStackCount>1</minimumStackCount>
+			</li>
+		</graphics>
+		<onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+		<requiredThingDefs>
+			<li>ISA_Bread</li>
+      		<li>ISA_Flour</li>
+		</requiredThingDefs>
+	</AdaptiveStorage.GraphicsDef>
+
+  <!-- Wood Cheese Stack -->
+
+  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalStackBase" MayRequire="ISA.Medieval">
+		<defName>ASMedievalStackCheese</defName>
+	  	<targetDef>ASMedievalStackCheeseWoody</targetDef>
+		<graphics>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/Stack/StackCheese/StackCheese</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+		    	<shaderType>CutoutComplex</shaderType>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+				<minimumStackCount>1</minimumStackCount>
+			</li>
+		</graphics>
+		<onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+		<requiredThingDefs>
+			<li>ISA_MealCheese</li>
+     		<li>ISA_MealSheepCheese</li>
+    		<li>ISA_MealGoatCheese</li>
+    		<li MayRequire="Van.Beasts">ISA_MealMufftonCheese</li>
+     		<li MayRequire="Van.Beasts">ISA_MealGoldiloxCheese</li>
+		</requiredThingDefs>
+	</AdaptiveStorage.GraphicsDef>
+
+  <!-- Wood Wine Stack -->
+
+  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalStackBase" MayRequire="ISA.Medieval">
+		<defName>ASMedievalStackWine</defName>
+	  	<targetDef>ASMedievalStackWineWoody</targetDef>
+		<graphics>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/Stack/StackWine/StackWine</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+		    	<shaderType>CutoutComplex</shaderType>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+				<minimumStackCount>1</minimumStackCount>
+			</li>
+		</graphics>
+		<onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+		<requiredThingDefs>
+			<li>ISA_JuiceApple</li>
+     		<li>ISA_Cider</li>
+     		<li>ISA_Wine</li>
+      		<li>ISA_Wine_Berry</li>
+		</requiredThingDefs>
+	</AdaptiveStorage.GraphicsDef>
 
 </Defs>
