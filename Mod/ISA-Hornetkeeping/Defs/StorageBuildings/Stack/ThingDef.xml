@@ -28,8 +28,8 @@
 					<disallowNotEverStorable>true</disallowNotEverStorable>
 		<!--			<categories>
 						<li>MeatRaw</li>
-						<li>PlantFoodRaw</li>  -->
-					</categories>
+						<li>PlantFoodRaw</li>  
+					</categories>-->
 					<thingDefs>
       			<li>ISA_HornetMead</li>
          		<li>ISA_HornetHoney</li>
