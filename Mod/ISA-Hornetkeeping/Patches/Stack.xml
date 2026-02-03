@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[contains[@Name="ASMedievalStackThingBase"]/building/fixedStorageSettings/filter/thingDefs</xpath>
+		<xpath>Defs/ThingDef[@Name="ASMedievalStackThingBase"]/building/fixedStorageSettings/filter/thingDefs</xpath>
 		<value>
 			<li>ISA_HornetMead</li>
    		<li>ISA_HornetHoney</li>
