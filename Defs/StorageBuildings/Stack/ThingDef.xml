@@ -61,7 +61,7 @@
 		<defName>ASMedievalStackMeadWoody</defName>
 	  	<label>mead stack</label>
 	 	<uiIconPath>ASMedieval/Stack/StackMead/StackMead_Icon</uiIconPath>
-		<uiIconScale>1.2</uiIconScale>
+		<uiIconScale>2</uiIconScale>
 	  	<building>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<maxItemsInCell>4</maxItemsInCell>
