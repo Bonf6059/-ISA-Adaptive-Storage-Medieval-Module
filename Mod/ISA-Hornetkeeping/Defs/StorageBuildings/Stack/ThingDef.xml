@@ -3,7 +3,7 @@
 
   <!-- Parent -->
 
-  <ThingDef ParentName="ASMedievalStackThingBase" Name="ASMedievalStackMead" Abstract="True">
+  <ThingDef ParentName="ASMedievalStorageBase" Name="ASMedievalStackMead" Abstract="True">
 		<label>stack</label>
 		<graphicData>
 			<texPath>ASMedieval/Stack/StackEmpty</texPath>
