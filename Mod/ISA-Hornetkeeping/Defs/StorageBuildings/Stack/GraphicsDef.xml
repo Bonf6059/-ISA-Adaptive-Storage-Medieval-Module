@@ -3,7 +3,7 @@
   
   <!-- Wood Mead Stack -->
 
-  <AdaptiveStorage.GraphicsDef MayRequire="ISA.Medieval" ParentName="ASMedievalStackThingBase">
+  <AdaptiveStorage.GraphicsDef MayRequire="ISA.hornetkeeping" ParentName="ASMedievalStackThingBase">
 		<defName>ASMedievalStackMead</defName>
 		<graphics>
 			<li>
