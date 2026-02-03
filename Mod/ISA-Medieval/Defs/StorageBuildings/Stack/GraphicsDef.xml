@@ -10,6 +10,13 @@
 		<graphics>
 			<li>
 				<graphicData>
+					<texPath>ASMedieval/Stack/StackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+			</li>
+			<li>
+				<graphicData>
 					<texPath>ASMedieval/Stack/StackBread/StackBread</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 		    	<shaderType>CutoutComplex</shaderType>
