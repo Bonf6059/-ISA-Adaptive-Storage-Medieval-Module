@@ -60,7 +60,7 @@
   <ThingDef ParentName="ASMedievalStackWoody" MayRequire="ISA.hornetkeeping">
 		<defName>ASMedievalStackMeadWoody</defName>
 	  	<label>mead stack</label>
-	 	<uiIconPath>ASMedieval/Stack/StackMead/StackMead</uiIconPath>
+	 	<uiIconPath>ASMedieval/Stack/StackMead/StackMead_Icon</uiIconPath>
 	  	<building>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<maxItemsInCell>4</maxItemsInCell>
