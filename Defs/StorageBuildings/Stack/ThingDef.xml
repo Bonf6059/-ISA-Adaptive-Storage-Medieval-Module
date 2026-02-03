@@ -20,6 +20,26 @@
 			<Mass>16</Mass>
 			<WorkToBuild>1000</WorkToBuild>
 		</statBases>
+    <costStuffCount>40</costStuffCount>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+	  <designatorDropdown>ISA_Storage_Stack</designatorDropdown>
+	</ThingDef>
+
+  <!-- Wood Stack -->
+
+  <ThingDef ParentName="ASMedievalStackThingBase" Name="ASMedievalStackWoody" Abstract="True">
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+	</ThingDef>
+
+  <!-- Wood Food Stack -->
+
+  <ThingDef ParentName="ASMedievalStackWoody">
+		<defName>ASMedievalStackRawFoodWoody</defName>
 		<building>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<maxItemsInCell>4</maxItemsInCell>
@@ -38,21 +58,6 @@
 			</fixedStorageSettings>
 			<paintable>true</paintable>
 		</building>
-    <costStuffCount>40</costStuffCount>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsFurniture</li>
-		</thingCategories>
-	  <designatorDropdown>ISA_Storage_Stack</designatorDropdown>
-	</ThingDef>
-
-  <!-- Wood Food Stack -->
-
-  <ThingDef ParentName="ASMedievalStackThingBase" Name="ASMedievalStackWoody">
-		<defName>ASMedievalStackWoody</defName>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
 	</ThingDef>
 	
   <!-- Wood Mead Stack -->
