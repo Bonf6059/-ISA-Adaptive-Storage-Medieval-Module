@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<AdaptiveStorage.GraphicsDef Name="ASMedievalStackBase" Abstract="True">
-		<targetDef>ASMedievalStackWoody</targetDef>
+		<targetDef>ASMedievalStackRawFoodWoody</targetDef>
 		<showContainedItems>false</showContainedItems>
 	</AdaptiveStorage.GraphicsDef>
 
@@ -139,6 +139,13 @@
 		<graphics>
 			<li>
 				<graphicData>
+					<texPath>ASMedieval/Stack/StackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+			</li>
+			<li>
+				<graphicData>
 					<texPath>ASMedieval/Stack/StackCheese/StackCheese</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 		    	<shaderType>CutoutComplex</shaderType>
@@ -163,6 +170,13 @@
 		<defName>ASMedievalStackWine</defName>
 	  	<targetDef>ASMedievalStackWineWoody</targetDef>
 		<graphics>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/Stack/StackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+			</li>
 			<li>
 				<graphicData>
 					<texPath>ASMedieval/Stack/StackWine/StackWine</texPath>
