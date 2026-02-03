@@ -3,7 +3,7 @@
   
   <!-- Wood Bread Stack -->
 
-  <AdaptiveStorage.GraphicsDef MayRequire="ISA.Medieval" ParentName="ASMedievalStackBase">
+  <AdaptiveStorage.GraphicsDef MayRequire="ISA.Medieval" ParentName="ASMedievalStackThingBase">
 		<defName>ASMedievalStackBread</defName>
 		<graphics>
 			<li>
@@ -25,7 +25,7 @@
 
   <!-- Wood Cheese Stack -->
 
-  <AdaptiveStorage.GraphicsDef MayRequire="ISA.Medieval" ParentName="ASMedievalStackBase">
+  <AdaptiveStorage.GraphicsDef MayRequire="ISA.Medieval" ParentName="ASMedievalStackThingBase">
 		<defName>ASMedievalStackCheese</defName>
 		<graphics>
 			<li>
@@ -50,7 +50,7 @@
 
   <!-- Wood Wine Stack -->
 
-  <AdaptiveStorage.GraphicsDef MayRequire="ISA.Medieval" ParentName="ASMedievalStackBase">
+  <AdaptiveStorage.GraphicsDef MayRequire="ISA.Medieval" ParentName="ASMedievalStackThingBase">
 		<defName>ASMedievalStackWine</defName>
 		<graphics>
 			<li>
