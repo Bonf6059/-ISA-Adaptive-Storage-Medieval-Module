@@ -84,4 +84,89 @@
 		</building>
 	</ThingDef>
 
+  <!-- Wood Bread Stack -->
+
+  <ThingDef ParentName="ASMedievalStackWoody" MayRequire="ISA.hornetkeeping">
+		<defName>ASMedievalStackBreadWoody</defName>
+	  	<label>bread stack</label>
+	 	<uiIconPath>ASMedieval/Stack/StackBread/StackBread_Icon</uiIconPath>
+		<uiIconScale>2</uiIconScale>
+	  	<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<!--<categories>
+						<li>MeatRaw</li>
+						<li>PlantFoodRaw</li>
+					</categories> -->
+					<thingDefs>
+						<li>ISA_Bread</li>
+      					<li>ISA_Flour</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<paintable>true</paintable>
+		</building>
+	</ThingDef>	
+
+  <!-- Wood Cheese Stack -->
+
+  <ThingDef ParentName="ASMedievalStackWoody" MayRequire="ISA.hornetkeeping">
+		<defName>ASMedievalStackCheeseWoody</defName>
+	  	<label>cheese stack</label>
+	 	<uiIconPath>ASMedieval/Stack/StackCheese/StackCheese_Icon</uiIconPath>
+		<uiIconScale>2</uiIconScale>
+	  	<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<!--<categories>
+						<li>MeatRaw</li>
+						<li>PlantFoodRaw</li>
+					</categories> -->
+					<thingDefs>
+						<li>ISA_MealCheese</li>
+     					<li>ISA_MealSheepCheese</li>
+    					<li>ISA_MealGoatCheese</li>
+    					<li MayRequire="Van.Beasts">ISA_MealMufftonCheese</li>
+     					<li MayRequire="Van.Beasts">ISA_MealGoldiloxCheese</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<paintable>true</paintable>
+		</building>
+	</ThingDef>		
+
+  <!-- Wood Wine Stack -->
+
+  <ThingDef ParentName="ASMedievalStackWoody" MayRequire="ISA.hornetkeeping">
+		<defName>ASMedievalStackWineWoody</defName>
+	  	<label>wine stack</label>
+	 	<uiIconPath>ASMedieval/Stack/StackWine/StackWine_Icon</uiIconPath>
+		<uiIconScale>2</uiIconScale>
+	  	<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<!--<categories>
+						<li>MeatRaw</li>
+						<li>PlantFoodRaw</li>
+					</categories> -->
+					<thingDefs>
+						<li>ISA_JuiceApple</li>
+     					<li>ISA_Cider</li>
+     					<li>ISA_Wine</li>
+      					<li>ISA_Wine_Berry</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<paintable>true</paintable>
+		</building>
+	</ThingDef>		
 </Defs>
