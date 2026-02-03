@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-  <!-- Wood Bread Stack -->
+  <!-- Wood Mead Stack -->
 
-  <AdaptiveStorage.GraphicsDef MayRequire="ISA.hornetkeeping" ParentName="ASMedievalStackBase">
+  <AdaptiveStorage.GraphicsDef MayRequire="ISA.Medieval" ParentName="ASMedievalStackBase">
 		<defName>ASMedievalStackMead</defName>
 		<graphics>
 			<li>
