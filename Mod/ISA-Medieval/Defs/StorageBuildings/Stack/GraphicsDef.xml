@@ -3,8 +3,10 @@
   
   <!-- Wood Bread Stack -->
 
-  <AdaptiveStorage.GraphicsDef MayRequire="ISA.Medieval" ParentName="ASMedievalStackThingBase">
+  <AdaptiveStorage.GraphicsDef MayRequire="ISA.Medieval">
 		<defName>ASMedievalStackBread</defName>
+	  	<targetDef>ASMedievalStackWoody</targetDef>	
+		<showContainedItems>false</showContainedItems>
 		<graphics>
 			<li>
 				<graphicData>
