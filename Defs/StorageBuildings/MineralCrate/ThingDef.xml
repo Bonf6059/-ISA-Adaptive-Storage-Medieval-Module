@@ -49,7 +49,7 @@
 		<thingCategories>
 			<li>BuildingsFurniture</li>
 		</thingCategories>
-	  <designatorDropdown>ISA_Storage_MineralCrate</designatorDropdown>
+<!--	  <designatorDropdown>ISA_Storage_MineralCrate</designatorDropdown>	-->
 	</ThingDef>
 
   <!-- Wood Mineral Crate -->
