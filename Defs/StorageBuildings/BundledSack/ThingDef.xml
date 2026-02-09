@@ -34,7 +34,7 @@
 		<stuffCategories>
 			<li>Fabric</li>
 		</stuffCategories>
-	    <designatorDropdown>ISA_RugPatchedCloth</designatorDropdown>
+	  <!--  <designatorDropdown>ISA_RugPatchedCloth</designatorDropdown>	-->
 	</ThingDef>
 
   <!-- Bundled Sack (1x1) -->
