@@ -8,6 +8,9 @@ Update of the original mod from Soul and Bbradson with some addons to increase c
 
 # Old updates
 
+09/02/2026
+- Removed dropdown menu from most storage solutions, it created problems with the stuffable buildings (you couldn't choose the material)
+
 26/01/2026
 - Crates don't show items anymore
 - Added DropDown menus for every type of storage
