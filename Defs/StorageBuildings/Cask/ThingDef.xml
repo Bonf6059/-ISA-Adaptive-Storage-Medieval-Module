@@ -39,7 +39,7 @@
 		<thingCategories>
 			<li>BuildingsFurniture</li>
 		</thingCategories>
-		<designatorDropdown>ISA_Storage_Cask</designatorDropdown>
+	<!--	<designatorDropdown>ISA_Storage_Cask</designatorDropdown>	-->
 	</ThingDef>
 
 	<!-- Wood Cask -->
