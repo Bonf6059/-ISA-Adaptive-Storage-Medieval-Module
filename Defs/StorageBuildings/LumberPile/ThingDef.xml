@@ -37,7 +37,7 @@
 				<labelFormat>StuffAsNoun</labelFormat>
 			</li>
 		</modExtensions>
-		<designatorDropdown>ISA_Storage_LumberPile</designatorDropdown>
+	<!--	<designatorDropdown>ISA_Storage_LumberPile</designatorDropdown>	-->
 	</ThingDef>
 
   <!-- Wood Log 2x2 -->
