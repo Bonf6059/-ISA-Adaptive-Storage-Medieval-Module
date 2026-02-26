@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Parent -->
+
+  <ThingDef ParentName="ASMedievalStorageBase" Name="ASMedievalMedicalShelfThingBase" Abstract="True">
+		<label>medical shelf</label>
+		<graphicData>
+			<texPath>ASMedieval/FoodBarrel/FoodBarrelWood_Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.75,1.75)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		<description>A barrel perfectly suited for the storage of perishable food.</description>
+		<fillPercent>0.20</fillPercent>
+		<uiIconPath>ASMedieval/FoodBarrel/FoodBarrelWood_Closed</uiIconPath>
+		<uiIconScale>1.2</uiIconScale>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>600</WorkToBuild>
+			<Beauty>-2</Beauty>
+      <Flammability>1</Flammability>
+      <Mass>4</Mass>
+		</statBases>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<maxItemsInCell>6</maxItemsInCell>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<!--<li>FoodRaw</li>-->
+					</categories>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+						<li>ISA_Mindwort</li>
+						<li>ISA_FlyAgaric</li>
+						<li>ISA_Poppy</li>
+            <li>ISA_RawHerb</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<paintable>true</paintable>
+		</building>
+    <costStuffCount>20</costStuffCount>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+<!--	  <designatorDropdown>ISA_Storage_Shelf</designatorDropdown>	-->
+	</ThingDef>
+
+  <!-- Wood medical shelf -->
+
+  <ThingDef ParentName="ASMedievalMedicalShelfThingBase">
+		<defName>ASMedievalMedicalShelflWoody</defName>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+	</ThingDef>
+
+</Defs>
