@@ -3,25 +3,25 @@
 
   <!-- Parent -->
 
-  <ThingDef ParentName="ASMedievalStorageBase" Name="ASMedievalMedicalShelfThingBase" Abstract="True">
-		<label>medical shelf</label>
+  <ThingDef ParentName="ASMedievalStorageBase" Name="ASMedievalAlchemyShelfThingBase" Abstract="True">
+		<label>alchemy shelf</label>
 		<graphicData>
-			<texPath>ASMedieval/FoodBarrel/FoodBarrelWood_Empty</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1.75,1.75)</drawSize>
-			<drawRotated>false</drawRotated>
+			<texPath>ASMedieval/AlchemyShelf/Shelf_Empty</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<description>A barrel perfectly suited for the storage of perishable food.</description>
+		<description>A shelf for storing miscellaneous items. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
 		<fillPercent>0.20</fillPercent>
-		<uiIconPath>ASMedieval/FoodBarrel/FoodBarrelWood_Closed</uiIconPath>
-		<uiIconScale>1.2</uiIconScale>
-		<size>(1,1)</size>
+		<uiIconPath>ASMedieval/AlchemyShelf/Shelf_AssortedHerbsFull</uiIconPath>
+		<size>(2,1)</size>
+	  	<uiIconScale>1.25</uiIconScale>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>600</WorkToBuild>
-			<Beauty>-2</Beauty>
-      <Flammability>1</Flammability>
-      <Mass>4</Mass>
+			<Beauty>0</Beauty>
+      		<Flammability>1</Flammability>
+     		<Mass>4</Mass>
 		</statBases>
 		<building>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
@@ -37,13 +37,13 @@
 						<li>ISA_Mindwort</li>
 						<li>ISA_FlyAgaric</li>
 						<li>ISA_Poppy</li>
-            <li>ISA_RawHerb</li>
+            			<li>ISA_RawHerb</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
 			<paintable>true</paintable>
 		</building>
-    <costStuffCount>20</costStuffCount>
+   		<costStuffCount>20</costStuffCount>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<thingCategories>
 			<li>BuildingsFurniture</li>
@@ -51,10 +51,10 @@
 <!--	  <designatorDropdown>ISA_Storage_Shelf</designatorDropdown>	-->
 	</ThingDef>
 
-  <!-- Wood medical shelf -->
+  <!-- Wood Alchemy shelf -->
 
-  <ThingDef ParentName="ASMedievalMedicalShelfThingBase">
-		<defName>ASMedievalMedicalShelflWoody</defName>
+  <ThingDef ParentName="ASMedievalAlchemyShelfThingBase">
+		<defName>ASMedievalAlchemyShelflWoody</defName>
 		<stuffCategories>
 			<li>Woody</li>
 		</stuffCategories>
