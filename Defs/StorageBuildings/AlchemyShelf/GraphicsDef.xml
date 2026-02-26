@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AdaptiveStorage.GraphicsDef Name="ASMedievalAlchemyShelfBase" Abstract="True">
+		<targetDef>ASMedievalAlchemyShelfWoody</targetDef>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+
+  <!-- Parent Wood Food Barrel -->
+  
+	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalAlchemyShelfBase">
+		<defName>ASMedievalAlchemyShelfBase</defName>
+		<graphics>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/AlchemyShelf/Shelf_Empty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</graphicData>
+			</li>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/AlchemyShelf/Shelf_AssortedHerbsFull</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</graphicData>
+				<minimumStackCount>1</minimumStackCount>
+			</li>
+		</graphics>
+		<randomSelectionWeight>0</randomSelectionWeight>
+	</AdaptiveStorage.GraphicsDef>
+  
+  <!-- Wood Food Barrel -->
+
+  <AdaptiveStorage.GraphicsDef ParentName="ASMedievalAlchemyShelfBase">
+		<defName>ASMedievalAlchemyShelfGreenHerbs</defName>
+		<graphics>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/AlchemyShelf/Shelf_Empty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</graphicData>
+			</li>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/AlchemyShelf/Shelf_GreenHerbsFull</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</graphicData>
+				<minimumStackCount>1</minimumStackCount>
+			</li>
+		</graphics>
+		<onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+		<requiredThingDefs>
+						<li>MedicineHerbal</li>
+						<li>ISA_Mindwort</li>
+            <li>ISA_RawHerb</li>
+		</requiredThingDefs>
+	</AdaptiveStorage.GraphicsDef>
+
+	<AdaptiveStorage.GraphicsDef ParentName="ASMedievalAlchemyShelfBase">
+		<defName>ASMedievalAlchemyShelfRedHerbs</defName>
+		<graphics>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/AlchemyShelf/Shelf_Empty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</graphicData>
+			</li>
+			<li>
+				<graphicData>
+					<texPath>ASMedieval/AlchemyShelf/Shelf_RedHerbsFull_east</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2.75,2.75)</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</graphicData>
+				<minimumStackCount>1</minimumStackCount>
+			</li>
+		</graphics>
+		<onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+		<requiredThingDefs>
+						<li>ISA_FlyAgaric</li>
+						<li>ISA_Poppy</li>
+		</requiredThingDefs>
+	</AdaptiveStorage.GraphicsDef>
+
+</Defs>
