@@ -56,8 +56,8 @@
 		</graphics>
 		<onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
 		<requiredThingDefs>
-						<li>MedicineHerbal</li>
-						<li>ISA_Mindwort</li>
+			<li>MedicineHerbal</li>
+			<li>ISA_Mindwort</li>
             <li>ISA_RawHerb</li>
 		</requiredThingDefs>
 	</AdaptiveStorage.GraphicsDef>
