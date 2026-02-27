@@ -6,14 +6,14 @@
   <ThingDef ParentName="ASMedievalStorageBase" Name="ASMedievalAlchemyShelfThingBase" Abstract="True">
 		<label>alchemy shelf</label>
 		<graphicData>
-			<texPath>ASMedieval/AlchemyShelf/Shelf_Empty</texPath>
+			<texPath>ASMedieval/AlchemyShelf/ShelfEmpty</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2.75,2.75)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<description>A shelf for storing miscellaneous items. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
 		<fillPercent>0.20</fillPercent>
-		<uiIconPath>ASMedieval/AlchemyShelf/Shelf_AssortedHerbsFull</uiIconPath>
+		<uiIconPath>ASMedieval/AlchemyShelf/Shelf_AssortedHerbs</uiIconPath>
 		<size>(2,1)</size>
 	  	<uiIconScale>1.25</uiIconScale>
 		<statBases>
