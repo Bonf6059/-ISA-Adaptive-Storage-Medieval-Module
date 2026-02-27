@@ -54,7 +54,7 @@
   <!-- Wood Alchemy shelf -->
 
   <ThingDef ParentName="ASMedievalAlchemyShelfThingBase">
-		<defName>ASMedievalAlchemyShelflWoody</defName>
+		<defName>ASMedievalAlchemyShelfWoody</defName>
 		<stuffCategories>
 			<li>Woody</li>
 		</stuffCategories>
