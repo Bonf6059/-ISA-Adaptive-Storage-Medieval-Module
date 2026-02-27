@@ -12,7 +12,7 @@
 		<graphics>
 			<li>
 				<graphicData>
-					<texPath>ASMedieval/AlchemyShelf/Shelf_Empty</texPath>
+					<texPath>ASMedieval/AlchemyShelf/ShelfEmpty</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(2.75,2.75)</drawSize>
 					<shaderType>CutoutComplex</shaderType>
@@ -20,7 +20,7 @@
 			</li>
 			<li>
 				<graphicData>
-					<texPath>ASMedieval/AlchemyShelf/Shelf_AssortedHerbsFull</texPath>
+					<texPath>ASMedieval/AlchemyShelf/Shelf_AssortedHerbs</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(2.75,2.75)</drawSize>
 					<shaderType>CutoutComplex</shaderType>
@@ -38,7 +38,7 @@
 		<graphics>
 			<li>
 				<graphicData>
-					<texPath>ASMedieval/AlchemyShelf/Shelf_Empty</texPath>
+					<texPath>ASMedieval/AlchemyShelf/ShelfEmpty</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(2.75,2.75)</drawSize>
 					<shaderType>CutoutComplex</shaderType>
@@ -46,7 +46,7 @@
 			</li>
 			<li>
 				<graphicData>
-					<texPath>ASMedieval/AlchemyShelf/Shelf_GreenHerbsFull</texPath>
+					<texPath>ASMedieval/AlchemyShelf/Shelf_GreenHerbs</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(2.75,2.75)</drawSize>
 					<shaderType>CutoutComplex</shaderType>
@@ -67,7 +67,7 @@
 		<graphics>
 			<li>
 				<graphicData>
-					<texPath>ASMedieval/AlchemyShelf/Shelf_Empty</texPath>
+					<texPath>ASMedieval/AlchemyShelf/ShelfEmpty</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(2.75,2.75)</drawSize>
 					<shaderType>CutoutComplex</shaderType>
@@ -75,7 +75,7 @@
 			</li>
 			<li>
 				<graphicData>
-					<texPath>ASMedieval/AlchemyShelf/Shelf_RedHerbsFull_east</texPath>
+					<texPath>ASMedieval/AlchemyShelf/Shelf_RedHerbs</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(2.75,2.75)</drawSize>
 					<shaderType>CutoutComplex</shaderType>
